@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <button id="topBtn">▲ TOP</button>
   <div id="header">
     <!-- 배경색/높이 -->
     <div class="header_inner">
@@ -23,12 +24,11 @@
 
       <a href="#"><img class="logo" src="./images/white logo.png" alt="logo"></a>
       <ul class="gnb">
-        <li><a href="javascript:return false;">brand</a>
-        </li>
-        <li><a href="javascript:return false;">product</a></li>
-        <li><a href="javascript:return false;">magine</a></li>
-        <li><a href="javascript:return false;">event</a></li>
-        <li><a href="javascript:return false;">community</a></li>
+          <li><a href="#" class="scroll-link" data-target="#brandstory">brand</a></li>
+  <li><a href="#" class="scroll-link" data-target="#content3">product</a></li>
+  <li><a href="#" class="scroll-link" data-target="#magine">magine</a></li>
+  <li><a href="#" class="scroll-link" data-target="#event1">event</a></li>
+  <li><a href="#" class="scroll-link" data-target="#review">community</a></li>
       </ul>
       <ul>
         <li class="person"><a href="javascript:return false;"><img src="./images/person_13924070 1.png"
@@ -52,9 +52,6 @@
     <div class="content1-text">
       <p class="text-font">FOR YOUR GOOD SLEEP</p>
       <hr class="custom-line">
-      <p class="text">sleep better은 <br>
-        깊게 자고<br>
-        건강한 수면을 추구합니다. </p>
     </div>
     <!-- 가운데로 보내기/줄긋기/폰트 체크 -->
     <div class="content1-img">
@@ -86,7 +83,7 @@
       </ul>
     </div>
   </div>
-
+<div id="brandstory">
   <p class="text-font">BRAND STORY</p>
   <hr class="custom-line">
   <div id="content2">
@@ -108,7 +105,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </div></div>
+  <div id="content3">
   <div class="content3">
     <p class="text-font">PRODUCT</p>
     <hr class="custom-line">
@@ -138,7 +136,7 @@
           <p class="price">10,900원</p>
         </li>
       </ul>
-  </div>
+  </div></div>
   <div id="magine">
     <p class="magine-start">magine</p>
     <hr class="custom-line">
@@ -210,11 +208,11 @@
         <!--버튼 -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
       </div>
 </div>
 </div>
-
+<div id="event1">
       <p class="text-font">EVENT</p>
       <hr class="custom-line">
       <div id="event">
@@ -233,15 +231,16 @@
     <div class="event4"><a href="javascript:return false;"><img src="./images/event4.png" alt="event"></a></div>
   </div>
 </div>
-
+</div>
 <p class="text-font">media</p>
 <hr class="custom-line">
 <div id="media">
   <div class="media-wrap">
   <!-- 영상 -->
+   <video src="./video/wep-video.mp4" autoplay muted loop playsinline></video>
 </div>
 </div>
-
+<div id="review">
 <p class="text-font">REVIEW</p>
 <hr class="custom-line">
 <div class="review">
@@ -250,32 +249,33 @@
           <div class="swiper card"><!--swiper는 필수 클래스, 그 옆의 클래스는 보조 클래스-->
               <div class="swiper-wrapper"><!--swiper-wrapper는 필수 클래스-->
                   <div class="swiper-slide">
-                      <img src="./images/review1.png" alt="메인배너2">
+                      <a href="javascript:return false;"><img src="./images/review1.png" alt="메인배너2"></a>
       
                   </div>
                   <div class="swiper-slide">
-                      <img src="./images/review2.png" alt="메인배너3">
+                      <a href="javascript:return false;"><img src="./images/review2.png" alt="메인배너3"></a>
                     
                   </div>
                   <div class="swiper-slide">
-                      <img src="./images/review3.png"alt="메인배너4">
+                      <a href="javascript:return false;"><img src="./images/review3.png"alt="메인배너4"></a>
                     
                   </div>
                   <div class="swiper-slide">
-                      <img src="./images/review4.png"alt="메인배너5">
+                      <a href="javascript:return false;"><img src="./images/review4.png"alt="메인배너5"></a>
                      
                   </div>
                   <div class="swiper-slide">
-                      <img src="./images/review5.png"alt="메인배너6">
+                      <a href="javascript:return false;"><img src="./images/review5.png"alt="메인배너6"></a>
                     
                   </div>
                   <div class="swiper-slide">
-                      <img src="./images/review6.png"alt="메인배너6">
+                      <a href="javascript:return false;"><img src="./images/review6.png"alt="메인배너6"></a>
                     
                   </div>
               </div>
     </div>
       
+</div>
 </div>
 </div>
 </div>
